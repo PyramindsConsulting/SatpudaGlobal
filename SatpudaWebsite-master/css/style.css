@@ -1,0 +1,886 @@
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    
+}
+#login_div{
+    text-align:right;
+}
+
+#login_button{
+    text-align:right;
+    background-color: #1DBB90;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: 0px;
+    color:white;
+}
+
+#contact_us{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color:white;
+}
+
+#top_slider{
+    background-image: url(../images/bg-green.jpg);
+    background-size: cover;
+}
+
+#slider-content-1{
+    padding-top:15%;
+}
+
+#slider-content-2{
+    padding-top:15%;
+}
+
+.slider_heading{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 44px;
+    color: white;
+}
+
+.slider_text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:white;
+}
+
+#school_logo{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 34px;
+    color: white;
+    font-weight: 300;
+}
+#line_below_menu{
+    background-color: WHITE;
+    height: 5px;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:-1%;
+}
+
+
+.navbar{
+    border-color:transparent !important;
+    background-color: transparent !important;
+    color: WHITE !important;
+}
+
+.navbar active{
+    background-color: transparent !important;
+}
+
+.navbar-collapse li a:hover{
+    color: WHITE;
+    background-color: #1DBB90 !important;
+    border-radius: 8px; 
+}
+
+.dropdown-menu li a{
+    color:white;
+}
+
+.menu-item:hover{
+    color: WHITE;
+    background-color: #1DBB90 !important;
+    border-radius: 8px; 
+}
+
+.dropdown:hover{
+    color: WHITE;
+    background-color: #1DBB90 !important;
+    border-radius: 8px; 
+}
+
+.active_menu{
+    color: WHITE;
+    background-color: #1DBB90 !important;
+    border-radius: 8px;
+}
+
+.active_menu:hover{
+    color: #fff;
+    background-color: #1DBB90 !important;
+    border-radius: 8px;
+}
+
+
+.navbar .navbar-nav>.active_menu>a, .navbar .navbar-nav>.active_menu>a:focus, .navbar .navbar-nav>.active_menu>a:hover {
+    color: #fff;
+    background-color: #1DBB90 !important;
+    border-radius: 8px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-radius: 10px;
+    background-color: #1DBB90;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #eeeeee !important;
+    color:black;
+    border-radius:0px;
+}
+
+a.left.carousel-control {
+    background: transparent;
+    opacity: 1;
+    color: WHITE;
+}
+
+a.right.carousel-control {
+    background: transparent;
+    opacity: 1;
+    color: WHITE;
+}
+
+.main_heading{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: GREY;
+}
+
+#home_heading1{
+    margin: 20px 0px;
+}
+
+.grey_bg{
+    background-color: #F4F7F9;
+}
+
+.rounded_div{
+    border-radius: 20px 20px 0px 0px;
+}
+
+#abt_cambridge_logo{
+    padding-top:2%;
+    padding-bottom: 1%;
+}
+
+.svps_img_heading-blue{
+    margin: 0px;
+    padding: 10px 10px 0px 10px;
+    background-color: #1EAACE;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.svps_img_description-blue{
+    margin: 0px;
+    padding: 0px 10px 10px 10px;
+    background-color: #1EAACE;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    text-align:justify;
+}
+
+.svps_img_heading-orange{
+    margin: 0px;
+    padding: 10px 10px 0px 10px;
+    background-color: #FFB20E;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.svps_img_description-orange{
+    margin: 0px;
+    padding: 0px 10px 10px 10px;
+    background-color: #FFB20E;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    text-align:justify;
+}
+
+.svps_img_heading-green{
+    margin: 0px;
+    padding: 10px 10px 0px 10px;
+    background-color: #1DBB90;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.svps_img_description-green{
+    margin: 0px;
+    padding: 0px 10px 10px 10px;
+    background-color: #1DBB90;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    text-align:justify;
+}
+
+.footer{
+    background-color: #2F332F;
+   /* padding: 50px;*/
+    margin:0 auto;
+}
+#footer_address_head{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+}
+
+#footer_address_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: GREY;
+    text-align: center;
+}
+#footer_address_organizer_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: GREY;
+    text-align: center;
+}
+
+#social_media_icons{
+    font-size: 70px;
+}
+
+.testimonial-slider_text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:grey;
+}
+
+.testimonial_img{
+    width:10%;
+    border-radius:50%;
+}
+
+#testimonial-slider-content-1{
+    padding-top:5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#testimonial-slider-content-2{
+    padding-top:5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#testimonial-slider-content-3{
+    padding-top:5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#home_heading_news{
+    margin: 20px 0px;
+}
+
+.svps_news_heading-blue{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: #0080a0;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+}
+
+.svps_news_description-blue{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #1EAACE;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align:justify;
+}
+
+.svps_news_heading-orange{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: #d38d00;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+}
+
+.svps_news_description-orange{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #FFB20E;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align:justify;
+}
+
+.svps_news_heading-green{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: #008c64;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+}
+
+.svps_news_description-green{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #1DBB90;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align:justify;
+}
+
+#news_button-green{
+    text-align:center;
+    background-color: #008c64;
+    border: 0px;
+}
+
+#news_button-blue{
+    text-align:center;
+    background-color: #0080a0;
+    border: 0px;
+}
+
+#news_button-orange{
+    text-align:center;
+    background-color: #d38d00;
+    border: 0px;
+}
+
+#news_button_blue_bg{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #1EAACE;
+    text-align: center;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+}
+
+#news_button_green_bg{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #1DBB90;
+    text-align: center;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+}
+
+#news_button_orange_bg{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #FFB20E;
+    text-align: center;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+}
+
+/* ABOUTUS PAGE */
+#top{
+    background-image: url(../images/menu-bg.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.main_heading_left{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: GREY;
+}
+
+.paragraph_left{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: GREY;
+    text-align: left;
+}
+
+.Statement_heading-blue{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: #0080a0;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    text-align: center;
+}
+
+.Statement_heading-green{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: #008c64;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    text-align: center;
+}
+
+.Statement_heading-orange{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: #d38d00;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    text-align: center;
+}
+
+.Statement_paragraph-blue{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #1EAACE;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align:center;
+}
+
+.Statement_paragraph-green{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #1DBB90;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align:center;
+}
+
+.Statement_paragraph-orange{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #FFB20E;
+    color: WHITE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align:center;
+}
+
+.Statement_heading{
+    margin: 0px;
+    padding: 10px 10px 10px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: left;
+}
+.objective_list li{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align:left;
+    line-height: 90%;
+}
+
+.team_img_border{
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+}
+
+.team_break_line_blue{
+    background-color: #1EAACE;
+    height: 5px;
+}
+
+.team_break_line_green{
+    background-color: #1DBB90;
+    height: 5px;
+}
+
+.team_break_line_orange{
+    background-color: #FFB20E;
+    height: 5px;
+}
+
+.team_text_bg_grey{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #F4F7F9;
+    color: GREY;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align:center;
+}
+
+.team_name {
+    text-align: left; 
+}
+
+.team_role{
+   text-align: left; 
+   font-size: 15px;
+}
+
+.team_description{
+   text-align: left; 
+   font-size: 15px;
+}
+
+.team_heading{
+    color:#1EAACE;
+    font-weight: 400;
+}
+
+.team_name a{
+    text-decoration: none;
+}
+
+.team_bg_bottom{
+    margin: 0px;
+    padding: 5px 10px 10px 10px;
+    background-color: #F4F7F9;
+    text-align: center;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+}
+
+#submit_btn{
+    float:right;
+}
+
+.label_heading{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: GREY;
+    text-align: left;
+}
+
+.form-control{
+    border-radius:0px;
+    border-color: #5cb85c;
+}
+
+.btn{
+    border-radius:0px;
+    border-color: #5cb85c;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: GREY;
+}
+
+#application_pdf a{
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: GREY;
+    
+}
+
+#application_pdf a:hover{
+    color:#1EAACE;
+}
+#cambridgelogo_primary{
+    padding-bottom: 2%;
+    padding-top:1%;
+}
+
+#primary_logo{
+    width:8%;
+}
+
+#fileupload{
+    font-size:1.2em;
+}
+
+/* FORM */
+.mathematical-Function{
+    width:40%;
+    float:left;
+    display:table;
+    margin-top:3%;
+}
+#numb1{
+    width:5%;
+    display:table-cell;
+}
+#numb2{
+    width:5%;
+    display:table-cell;
+}
+#sumoftotal{
+    width:25%;
+    padding:6%;
+    display:table-cell;
+    border:1px solid #5cb85c;
+}
+#usercalculate{
+    float:right;
+    margin-top:2%;
+}
+.error{
+    color:red;
+}
+
+.testimonials_image{
+    width:100%;
+    border-radius: 50%;
+}
+
+.testimonial-slider_text a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* ------------------ STYLES FOR MOBILE DEVICES ----------------- */
+
+/* -------- BREAKPOINT FOR TO DISPLAY TOGGLE -------- */
+
+ @media (max-width: 991px) {
+        .navbar-header {
+            float: none;
+        }
+        .navbar-left,
+        .navbar-right {
+            float: none !important;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            margin-top: 7.5px;
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .collapse.in {
+            display: block !important;
+        }
+        .navbar-nav  {
+            display: inline;
+        }
+        .navbar-default .navbar-brand {
+            display: inline;
+        }
+       
+    }
+    
+
+    @media screen and  (min-width: 736px) and (max-width: 1024px)  {
+        .slider_heading{
+            font-size: 30px;
+        }
+        .slider_text{
+            font-size: 15px;
+        }
+        .testimonial-slider_text{
+            font-size: 16px;
+        }
+        #slider_content{
+            margin-top:-9%;
+        }
+        #footer_address_head{
+            font-size: 23px;
+        }
+        #social_media_icons{
+            font-size: 40px;
+        }
+        #contact_us{
+            font-size: 12px;
+        }
+        /*#login_button{
+            margin-top:-4%;
+        }*/
+        #footer_address_text{
+            font-size: 16px;
+        }
+        #footer_address_head{
+            text-align:center;
+        }
+        .footer_logo{
+            width: 30%;
+        }
+        .media_icons{
+            text-align: left;
+        }
+        #primary_logo{
+            width:20%;
+            margin:0 auto;
+        }
+        .testimonial_img{
+            width:20%;
+            border-radius:50%;
+        }
+        .testimonials_image{
+            width:30%;
+            border-radius:50%;
+            margin-left: 35%;
+            margin-right: 35%;
+        }
+     
+    }
+
+    @media screen and  (min-width: 0px) and (max-width: 736px)  {
+        #slider{
+            display:none;
+        } 
+        #line_below_menu{
+            display:none;
+        }
+        .testimonial-slider_text{
+            font-size: 14px;
+            padding-top:3.3%;
+        }
+        #row_mid{
+            margin-top:5%;
+        }
+        .main_heading{
+            font-size: 32px;
+        }
+        #footer_address_head{
+            font-size: 23px;
+        }
+        #social_media_icons{
+            font-size: 40px;
+        }
+        #contact_us{
+            font-size: 12px;
+        }
+        #login_button{
+            margin-top:-14%;
+        }
+        #footer_address_text{
+            font-size: 16px;
+        }
+        #WhySVPS p{
+            text-align: justify;
+        }
+        .footer_logo{
+            width: 50%;
+        }
+        .media_icons{
+            text-align: left;
+        }
+       
+        #cambridge_logo1{
+            width:100%;
+        }
+        #cambridge_logo2{
+            width:100%;
+        }
+        #primary_logo{
+            width:20%;
+            margin:0 auto;
+        }
+        #usercalculate{
+            float:right;
+            margin-top:-1.5%;
+        }
+        .testimonial_img{
+            width:30%;
+            border-radius:50%;
+        }
+       
+    }
+
+    @media (max-width: 768px) {
+        .navbar-nav  {
+            display: inline;
+        }
+        .navbar-default .navbar-brand {
+            display: inline;
+        }
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+            color: white;
+        }
+        .dropdown-menu {
+            padding-left: 10px;
+        }
+        .navbar-toggle {
+            float: right;
+            padding: 9px 10px;
+            margin-top: 8px;
+            margin-right: 15px;
+            margin-bottom: 8px;
+            background-color: transparent;
+            background-image: none;
+            border: 1px solid black;
+            border-radius: 4px;
+            color:white ;
+        } 
+        .icon-bar{
+            background-color: white;
+        }
+        #slider{
+            display:none;
+        } 
+        #line_below_menu{
+            display:none;
+        }
+    }
+
+   @media (min-width: 768px) {
+        ul.nav li:hover > ul.dropdown-menu {
+            display: block;
+        }
+        #navbar {
+            text-align: center;
+        }
+    }
+
+   

@@ -1,0 +1,82 @@
+
+        
+        .dropdown-submenu>.dropdown-menu {
+           top:0;left:100%;
+           margin-top:-6px;margin-left:-1px;
+           -webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;
+         }
+
+        /*.dropdown-submenu > a:after {
+          border-color: transparent transparent transparent #333;
+          border-style: solid;
+          border-width: 5px 0 5px 5px;
+          content: " ";
+          display: block;
+          float: right;  
+          height: 0;     
+          margin-right: -10px;
+          margin-top: 5px;
+          width: 0;
+        }*/
+            #navbar{
+                 background-image: url(../images/bg-green.jpg);
+                 background-size: cover;
+            }
+            .dropdown  a{
+                color:white;
+            }
+            .dropdown li a{
+                color:white;
+                background-color: #1DBB90;
+            }
+            .dropdown-menu li a{
+                background-color: #1DBB90;
+            }
+             a.dropdown-toggle :hover{
+                background-color: #1DBB90;
+            }
+
+        
+
+        @media (max-width: 1024px) {
+
+          .navbar-nav  {
+             display: inline;
+          }
+          .navbar-default .navbar-brand {
+            display: inline;
+          }
+          .navbar-default .navbar-toggle .icon-bar {
+            background-color: #fff;
+          }
+          .navbar-default .navbar-nav .dropdown-menu > li > a {
+            color: red;
+            background-color: #1DBB90;
+            border-radius: 4px;
+            margin-top: 2px;   
+          }
+           .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+             color: white;
+            
+           }
+           
+
+           .navbar-nav .open .dropdown-menu {
+             border-bottom: 1px solid white; 
+             border-radius: 0;
+           }
+          .dropdown-menu {
+              padding-left: 10px;
+          }
+          
+
+        }
+
+        @media (min-width: 768px) {
+          ul.nav li:hover > ul.dropdown-menu {
+            display: block;
+          }
+          #navbar {
+            text-align: center;
+          }
+        }  
